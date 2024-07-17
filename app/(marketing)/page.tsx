@@ -5,7 +5,6 @@ import Balancer from "react-wrap-balancer";
 import { Button, buttonVariants } from "@/components/ui/button";
 import MarketingBentoGrid from "./_component/marketing-bentogrid";
 import { HeroHighlightSection } from "./_component/hero-highlight-section";
-import { Twitter } from "lucide-react";
 
 export default function MarketingPage() {
   return (
@@ -18,9 +17,7 @@ export default function MarketingPage() {
         )}
         style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         target="_blank"
-      >
-        Introducing on <Twitter className="ml-2 h-4 w-4" />
-      </Link>
+      ></Link>
       <h1
         className="max-w-[52rem] animate-fade-up text-4xl font-extrabold tracking-tight opacity-0 sm:text-5xl md:text-6xl lg:text-7xl"
         style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}

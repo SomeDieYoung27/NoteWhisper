@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: "NotesGPT",
     template: `%s - "NotesGPT`,
   },
-  metadataBase: new URL("https://notessgpt.vercel.app"),
+  metadataBase: new URL("http://localhost:3000/"),
   description:
     "NotesGPT seamlessly converts your voice notes into organized summaries and clear action items using AI.",
   keywords: [

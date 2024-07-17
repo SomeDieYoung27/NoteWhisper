@@ -12,12 +12,14 @@ export default function MarketingBentoGrid() {
           >
             <Balancer>The new</Balancer>
           </h1>
+
           <h1
             className="font-urban relative animate-fade-up bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-3xl font-extrabold tracking-tight text-transparent opacity-0 sm:text-4xl md:text-5xl lg:text-6xl"
             style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
           >
             <Balancer>Golden Standard</Balancer>
           </h1>
+
           <p
             className="mt-4 max-w-[42rem] animate-fade-up leading-normal text-muted-foreground opacity-0 sm:text-xl sm:leading-8"
             style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
