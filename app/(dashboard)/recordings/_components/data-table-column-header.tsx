@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/ClientUtils";
 import { type Column } from "@tanstack/react-table";
 import { Button } from "@/components/ui/button";
 

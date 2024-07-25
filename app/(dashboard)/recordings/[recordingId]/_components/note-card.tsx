@@ -1,5 +1,5 @@
 import { toast } from "sonner";
-import { formatDate } from "@/lib/utils";
+import { formatDate } from "@/lib/ClientUtils";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Checkbox } from "@/components/ui/checkbox";

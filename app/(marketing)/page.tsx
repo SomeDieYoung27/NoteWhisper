@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/ClientUtils";
 import Balancer from "react-wrap-balancer";
 import { Button, buttonVariants } from "@/components/ui/button";
 import MarketingBentoGrid from "./_component/marketing-bentogrid";

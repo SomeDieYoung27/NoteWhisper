@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { formatTime, getCurrentFormattedDate } from "@/lib/utils";
+import { formatTime, getCurrentFormattedDate } from "@/lib/ClientUtils";
 
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
