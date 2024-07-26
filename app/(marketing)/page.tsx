@@ -9,26 +9,17 @@ import { HeroHighlightSection } from "./_component/hero-highlight-section";
 export default function MarketingPage() {
   return (
     <section className="flex flex-col items-center justify-center space-y-6 py-12 text-center lg:py-28">
-      <Link
-        href="https://twitter.com/abdtriedcoding"
-        className={cn(
-          buttonVariants({ variant: "outline", size: "sm" }),
-          "animate-fade-up opacity-0"
-        )}
-        style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
-        target="_blank"
-      ></Link>
       <h1
         className="max-w-[52rem] animate-fade-up text-4xl font-extrabold tracking-tight opacity-0 sm:text-5xl md:text-6xl lg:text-7xl"
         style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
       >
-        <Balancer>
+        <span className="block center-leading-[1.1]">
           AI-Powered{" "}
           <span className="relative bg-gradient-to-r from-indigo-500 to-purple-500/80 bg-clip-text font-extrabold text-transparent">
             Voice Notes{" "}
           </span>
           Management
-        </Balancer>
+        </span>
       </h1>
       <p
         className="max-w-[42rem] animate-fade-up leading-normal text-muted-foreground opacity-0 sm:text-xl sm:leading-8"
